@@ -5,7 +5,7 @@
 ## Projects
 ### Predicting Home Value with a Random Forest Regressor
 
-Scraped housing data from the Zillow website using **Python**, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
+Scraped housing data from the Zillow website using **python**, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
 
 ### Personal Finance Dashboard using PowerBI
 
