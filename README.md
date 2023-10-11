@@ -1,16 +1,21 @@
-### Hi there 👋
+# Aspiring Data Scientist
 
-<!--
-**brianjglee/brianjglee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### Technical Skills: Python, SQL, Excel
 
-Here are some ideas to get you started:
+## Education
+M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
+B.A., Mathematics | University of California, Santa Barbara (_June 2020_)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+### Predicting Home Value with a Random Forest Regressor
+
+Scraped housing data from the Zillow website, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
+
+### Personal Finance Dashboard using PowerBI
+
+Extracted transactions from bank statement pdfs, imported into a csv file, cleaned the data in PowerBI, and created a personal finance dashboard that displays overall or monthly overview of spending and earnings. 
+
+## Work Experience
+**Math Teacher @ South High School, Torrance (_Auguest 2021 - June 2023_)
+- mapped algebra 1 and precalculus curriculum, designed and executed lesson plans, administered assessments and measured growth, and collaborated with teacher teams to analyze student success and improvement.
+- piloted after school program to reach and support students with learning gaps from the pandemic by designing an assessment to identify struggling students, designed and implemented math intervention tactics. 
