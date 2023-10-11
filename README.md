@@ -2,10 +2,6 @@
 
 #### Technical Skills: Python, SQL, Excel
 
-## Education
-M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
-B.A., Mathematics | University of California, Santa Barbara (_June 2020_)
-
 ## Projects
 ### Predicting Home Value with a Random Forest Regressor
 
@@ -14,6 +10,10 @@ Scraped housing data from the Zillow website, imported into pandas DataFrame, cl
 ### Personal Finance Dashboard using PowerBI
 
 Extracted transactions from bank statement pdfs, imported into a csv file, cleaned the data in PowerBI, and created a personal finance dashboard that displays overall or monthly overview of spending and earnings. 
+
+## Education
+M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
+B.A., Mathematics | University of California, Santa Barbara (_June 2020_)
 
 ## Work Experience
 **Math Teacher @ South High School, Torrance (_Auguest 2021 - June 2023_)
