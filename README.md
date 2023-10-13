@@ -9,8 +9,7 @@ Code: (https://github.com/brianjglee/zillow-time-series-rfr)
 Scraped housing data from the Zillow website using **python**, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
 
 ### Personal Finance Dashboard using PowerBI
-![dashboard](https://github.com/brianjglee/brianjglee/assets/135400384/4a996219-e2a0-4326-853b-d43828dd6148)
-
+Preview Screenshot: [dashboard](https://github.com/brianjglee/brianjglee/assets/135400384/4a996219-e2a0-4326-853b-d43828dd6148)
 
 Extracted transactions from bank statement pdfs using **python**, imported into a csv file, cleaned the data in **PowerBI**, and created a personal finance dashboard that displays overall or monthly overview of spending and earnings. 
 
