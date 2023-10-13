@@ -3,8 +3,8 @@
 #### Technical Skills: Python, SQL, Excel
 
 ## Projects
-### [Predicting Home Value with a Random Forest Regressor] 
-Code: (https://github.com/brianjglee/zillow-time-series-rfr)
+### Predicting Home Value with a Random Forest Regressor
+Code: https://github.com/brianjglee/zillow-time-series-rfr
 
 Scraped housing data from the Zillow website using **python**, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
 
@@ -15,6 +15,7 @@ Extracted transactions from bank statement pdfs using **python**, imported into 
 
 ## Education
 M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
+
 B.A., Mathematics | University of California, Santa Barbara (_June 2020_)
 
 ## Work Experience
