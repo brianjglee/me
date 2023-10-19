@@ -13,6 +13,11 @@ Preview Screenshot: [dashboard](https://github.com/brianjglee/brianjglee/assets/
 
 Extracted transactions from bank statement pdfs using **python**, imported into a csv file, cleaned the data in **PowerBI**, and created a personal finance dashboard that displays overall or monthly overview of spending and earnings. 
 
+### Uber Supply and Demand Data Analysis
+Code: https://github.com/brianjglee/uber-supply-demand
+
+Using a provided dataset, we import the csv file into a **pandas** dataframe, clean the data, use **pandasql** for **SQL** style queries, and pandas **to_datetime**, **merge**, **plot**, and **groupby** functions to gather insights for the business. 
+
 ## Education
 M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
 
