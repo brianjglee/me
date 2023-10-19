@@ -1,20 +1,20 @@
 # Aspiring Data Scientist
 
-#### Technical Skills: Python, SQL, Excel
+#### Technical Skills: Python, SQL, Excel, PowerBI
 
 ## Projects
 ### Predicting Home Value with a Random Forest Regressor
-Code: https://github.com/brianjglee/zillow-time-series-rfr
+[Project Link](https://github.com/brianjglee/zillow-time-series-rfr)
 
 Scraped housing data from the Zillow website using **python**, imported into pandas DataFrame, cleaned, performed exploratory analysis, and created a machine learning model using random forest regressor to predict the home value of current listings.
 
 ### Personal Finance Dashboard using PowerBI
-Preview Screenshot: [dashboard](https://github.com/brianjglee/brianjglee/assets/135400384/4a996219-e2a0-4326-853b-d43828dd6148)
+![Image](/assets/dashboard.png)
 
 Extracted transactions from bank statement pdfs using **python**, imported into a csv file, cleaned the data in **PowerBI**, and created a personal finance dashboard that displays overall or monthly overview of spending and earnings. 
 
 ### Uber Supply and Demand Data Analysis
-Code: https://github.com/brianjglee/uber-supply-demand
+[Project Link](https://github.com/brianjglee/uber-supply-demand)
 
 Using a provided dataset, we import the csv file into a **pandas** dataframe, clean the data, use **pandasql** for **SQL** style queries, and pandas **to_datetime**, **merge**, **plot**, and **groupby** functions to gather insights for the business. 
 
