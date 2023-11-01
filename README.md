@@ -18,6 +18,10 @@ Extracted transactions from bank statement pdfs using **python**, imported into 
 
 Using a provided dataset, we import the csv file into a **pandas** dataframe, clean the data, use **pandasql** for **SQL** style queries, and pandas **to_datetime**, **merge**, **plot**, and **groupby** functions to gather insights for the business. 
 
+### Cocktail Recommendations using Natural Language Processing and 
+[Project Link](https://github.com/brianjglee/cocktail-recommendations)
+What cocktails do you like? How do you know what to order at a bar? Cocktails are overwhelming. The goal of this project was to use natural language processing to recommend cocktails. Using **spaCy's Named Entity Recognition (NER)**, we created a model to extract the names of cocktails that redditors enjoyed. With the help of **PRAW**, Reddit's webscraping API, we compiled a list of text from multiple reddit comments. Then, using the NER model, we extracted cocktail names from these posts. After creating a spell checker function, using the distance between two strings, we create a dictionary of cocktail names to correct the spelling mistakes in these posts. Finally, we explore the data using association rules. In particular, **mlxtend's frequent pattern growth algorithm** shows us commonly grouped cocktails in each post. We also created an **item item collaborative filtering** to recommend a cocktail using a correlation matrix. 
+
 ## Education
 M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
 
