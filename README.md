@@ -1,6 +1,6 @@
-# Aspiring Data Scientist
+# Aspiring Electrical Engineer/Data Scientist
 
-#### Technical Skills: Python, SQL, Excel, PowerBI
+#### Technical Skills: Python, SQL, Assembly, C, Excel, Tableau
 
 ## Projects
 ### Predicting Home Value with a Random Forest Regressor
@@ -33,6 +33,8 @@ Using a provided dataset, we import the csv file into a **pandas** dataframe, cl
 What cocktails do you like? How do you know what to order at a bar? Cocktails are overwhelming. The goal of this project was to use natural language processing to recommend cocktails. Using **spaCy's Named Entity Recognition (NER)**, we created a model to extract the names of cocktails that redditors enjoyed. With the help of **PRAW**, Reddit's webscraping API, we compiled a list of text from multiple reddit comments. Then, using the NER model, we extracted cocktail names from these posts. After creating a spell checker function, using the distance between two strings, we create a dictionary of cocktail names to correct the spelling mistakes in these posts. Finally, we explore the data using association rules. In particular, **mlxtend's frequent pattern growth algorithm** shows us commonly grouped cocktails in each post. We also created an **item item collaborative filtering** to recommend a cocktail using a correlation matrix. 
 
 ## Education
+M.S., Electrical Engineering | California State University, Long Beach (_Present_)
+
 M.Ed., Mathematics Education | University of California, Santa Barbara (_June 2021_)
 
 B.A., Mathematics | University of California, Santa Barbara (_June 2020_)
