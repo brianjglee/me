@@ -1,8 +1,16 @@
-# Aspiring Electrical Engineer/Data Scientist
+# Electrical Engineer (Plasmonics/Communications/Microwave/RF)
 
-#### Technical Skills: Python, SQL, Assembly, C, Excel, Tableau
+#### Technical Skills: Lumerical FDTD, MATLAB, Python
+
+Welcome! My current research projects involve translating ideas from microwave/RF electronics to tiny electromagnetic devices. Specifically, when visible and near-infrared (NIR) light interacts with subwavelength structures, strong field confinement supports resonant modes. Between metals and dielectric surfaces, this coupling excites surface plasmon polaritons, which are surface-bound electromagnetic waves associated with collective electron oscillations that propagate along the interface and decay away from it. We attempt to exploit microwave structures, like cavities and waveguides, and techniques, like impedance matching, to understand and enhance electromagnetic properties at the nanoscale.
+
+Meanwhile, since I'm learning the physics and engineering principles behind microwave electronics, I'm designing high-frequency circuits as a hobby. Join me in my journey in all things electromagnetics! 
+
+I also enjoy learning about data analytics, machine learning, and telecommunications! 
 
 ## Projects
+
+##Below are some projects in machine learning and data analytics I've completed in the past. 
 ### Predicting Home Value with a Random Forest Regressor
 [Project Link](https://github.com/brianjglee/zillow-time-series-rfr)
 
