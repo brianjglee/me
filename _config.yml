@@ -1,8 +1,12 @@
 title: Brian (Jeong Gyu) Lee
+
+url: "https://brianjglee.github.io"
+baseurl: "/me"
+
 logo: /assets/headshot_circle.jpeg
 
 description: >
-  <a href="/me/assets/lee_CV_F26.pdf">Download my CV</a><br>
+  <a href="/assets/lee_CV_F26.pdf">Download my CV</a><br>
   <a href="https://drive.google.com/drive/folders/18L85e0qIK3uicnwskgjMFrk4x0EUhr4d?usp=drive_link">View my portfolio</a>
 
 show_downloads: false
