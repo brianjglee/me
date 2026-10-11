@@ -42,6 +42,14 @@ After simulation, I fabricated an FR-4 prototype using copper-tape RF traces and
 
 For this project, I designed and simulated matching networks for a single-stage power amplifier using an S-parameter file of an NE67383 MESFET in Keysight ADS. The amplifier achieved 12 dB of gain over a 10% bandwidth centered around 9 GHz. This project was one of my first real design projects in Keysight ADS, giving me hands-on experience with high-frequency matching and RF circuit simulation without having to worry about DC-biasing the transistor, but still helping me explore different tools in ADS such as the optimization feature.
 
+## Communications Block Error Rate Simulation
+
+[Project Link](https://github.com/brianjglee/blockErrorRate)
+
+I encoded and decoded a Hamming (7,4) code, 1/2-rate, k = 3 convolutional code, and an LDPC (8,4) code in MATLAB. Message bit was encoded, sent over a simulated binary symmetric channel, and then decoded. Block Error Rate results are shown below: 
+
+![block_error_rate](/assets/blockErrorRate.png)
+
 ## Acoustic Piano to Digital MIDI Controller
 
 [Project Link](https://drive.google.com/drive/folders/1MkgJkEuPikOoJbhd8d_K6pq7zs_JsCn7?usp=drive_link)
@@ -49,6 +57,12 @@ For this project, I designed and simulated matching networks for a single-stage 
 ![breadboard_image](/assets/breadboard-image.jpg)
 
 I designed a mixed-signal sensing interface to convert the linear mechanical motion of piano key hammer into digital time-of-flight measurements. The system used TCST2103 optical encoders, 555-timer Schmitt-trigger circuits, and an Arduino Nano. This project brought together optical sensing, analog circuitry, and microcontroller programming to explore a practical musical application.
+
+## Spatial Modulation with CSINet
+
+[Project Link](https://drive.google.com/drive/folders/1-qNbZ9OHZ1Ot6Hi7Qpg43IuoJF4vRn-V?usp=drive_link)
+
+Here we present a scheme for spatial modulation and improving the channel matrix using CSINet. In the actual code, COST2100 outdoor and indoor channels were simulated and used to train and validate CSINet. Then we simulated spatial modulation (using only one transmit antenna) and checked if our channel estimate with CSINet improved our received signal. 
 
 ## Predicting Home Value with a Random Forest Regressor
 
