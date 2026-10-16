@@ -32,7 +32,7 @@ I used Lumerical FDTD to investigate how the structure’s geometry and resonanc
 
 [Project Link](https://drive.google.com/drive/folders/16uOcr8zH6xvGFkNuyfOgYP5oi4vpMuZC?usp=drive_link)
 
-I designed and simulated a BFP420 BJT frequency doubler in Keysight ADS using harmonic-balance analysis and Method of Moments to characterize the resonator. The design produced a 5 GHz output of −7 dBm from a 2.5 GHz input while suppressing undesired harmonics to −59 dBm.
+I designed and simulated a BFP420 BJT frequency doubler in Keysight ADS using harmonic-balance analysis and Method of Moments to characterize the resonator. The design produced a 5 GHz output of −7 dBm from a 2.5 GHz input while suppressing undesired harmonics to −59 dBm. The images below are the only ones I have left over from when I had access to ADS. Note the HB output shows a supression of the other harmonics by 30 dBm, but it doesn't show the output at 5 GHz that I was able to optimally achieve. Sorry about that! 
 
 <img src="/assets/freq_dub_schematic.png" alt="Frequency doubler schematic" style="width: 100%; max-width: 300px; height: auto;">
 <img src="/assets/freq_dub_MoM_resonator.png" alt="MoM resonator" style="width: 100%; max-width: 300px; height: auto;">
