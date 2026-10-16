@@ -34,13 +34,13 @@ I used Lumerical FDTD to investigate how the structure’s geometry and resonanc
 
 I designed and simulated a BFP420 BJT frequency doubler in Keysight ADS using harmonic-balance analysis and Method of Moments to characterize the resonator. The design produced a 5 GHz output of −7 dBm from a 2.5 GHz input while suppressing undesired harmonics to −59 dBm.
 
-<img src="/assets/freq_dub_schematic.png" alt="Frequency doubler schematic" style="width: 100%; max-width: 500px; height: auto;">
-<img src="/assets/freq_dub_MoM_resonator.png" alt="MoM resonator" style="width: 100%; max-width: 500px; height: auto;">
-<img src="/assets/freq_dub_HB_output.png" alt="Harmonic balance output" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/freq_dub_schematic.png" alt="Frequency doubler schematic" style="width: 100%; max-width: 300px; height: auto;">
+<img src="/assets/freq_dub_MoM_resonator.png" alt="MoM resonator" style="width: 100%; max-width: 300px; height: auto;">
+<img src="/assets/freq_dub_HB_out.png" alt="Harmonic balance output" style="width: 100%; max-width: 300px; height: auto;">
 
 
 After simulation, I fabricated an FR-4 prototype using copper-tape RF traces and characterized its frequency response with a spectrum analyzer and vector network analyzer.
-<img src="/assets/freq_dub_pcb.jpg" alt="Frequency doubler PCB" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/freq_dub_pcb.jpg" alt="Frequency doubler PCB" style="width: 100%; max-width: 300px; height: auto;">
 
 ## 9 GHz Power Amplifier
 
@@ -48,9 +48,9 @@ After simulation, I fabricated an FR-4 prototype using copper-tape RF traces and
 
 For this project, I designed and simulated matching networks for a single-stage power amplifier using an S-parameter file of an NE67383 MESFET in Keysight ADS. The amplifier achieved 12 dB of gain over a 10% bandwidth centered around 9 GHz. This project was one of my first real design projects in Keysight ADS, giving me hands-on experience with high-frequency matching and RF circuit simulation without having to worry about DC-biasing the transistor, but still helping me explore different tools in ADS such as the optimization feature.
 
-<img src="/assets/9ghz_schematic.png" alt="9 GHz amplifier schematic" style="width: 100%; max-width: 500px; height: auto;">
-<img src="/assets/figure-of-merit_delta_stab.png" alt="Stability figure of merit" style="width: 100%; max-width: 500px; height: auto;">
-<img src="/assets/9ghz_optimizedSparam.png" alt="Optimized S-parameters" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/9ghz_schematic.png" alt="9 GHz amplifier schematic" style="width: 100%; max-width: 300px; height: auto;">
+<img src="/assets/figure-of-merit_delta_stab.png" alt="Stability figure of merit" style="width: 100%; max-width: 300px; height: auto;">
+<img src="/assets/9ghz_optimizedSparam.png" alt="Optimized S-parameters" style="width: 100%; max-width: 300px; height: auto;">
 
 ## Communications Block Error Rate Simulation
 
@@ -58,13 +58,13 @@ For this project, I designed and simulated matching networks for a single-stage 
 
 I encoded and decoded a Hamming (7,4) code, 1/2-rate, k = 3 convolutional code, and an LDPC (8,4) code in MATLAB. Message bit was encoded, sent over a simulated binary symmetric channel, and then decoded. Block Error Rate results are shown below: 
 
-<img src="/assets/blockErrorRate.png" alt="Block error rate results" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/blockErrorRate.png" alt="Block error rate results" style="width: 100%; max-width: 300px; height: auto;">
 
 ## Acoustic Piano to Digital MIDI Controller
 
 [Project Link](https://drive.google.com/drive/folders/1MkgJkEuPikOoJbhd8d_K6pq7zs_JsCn7?usp=drive_link)
 
-<img src="/assets/breadboard-image.jpg" alt="Piano MIDI controller breadboard" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/breadboard-image.jpg" alt="Piano MIDI controller breadboard" style="width: 100%; max-width: 300px; height: auto;">
 
 I designed a mixed-signal sensing interface to convert the linear mechanical motion of piano key hammer into digital time-of-flight measurements. The system used TCST2103 optical encoders, 555-timer Schmitt-trigger circuits, and an Arduino Nano. This project brought together optical sensing, analog circuitry, and microcontroller programming to explore a practical musical application.
 
@@ -100,7 +100,7 @@ Finally, I explored how cocktails appeared together in posts. Using mlxtend’s 
 
 [Visualization Link](https://public.tableau.com/app/profile/jeong.gyu.lee/viz/CovidDashboard_17024232948120/Dashboard1?publish=yes)
 
-<img src="/assets/covid-dashboard.png" alt="COVID dashboard" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/assets/covid-dashboard.png" alt="COVID dashboard" style="width: 100%; max-width: 300px; height: auto;">
 
 This project was my first foray into creating a database and uploading, exploring, and visualizing data. I used Docker to create a MySQL container, then connected to it with Azure Data Studio. Using SQL queries, I created tables for COVID deaths and vaccinations and bulk-uploaded data from CSV files.
 
