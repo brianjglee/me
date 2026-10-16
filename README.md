@@ -32,15 +32,24 @@ I used Lumerical FDTD to investigate how the structure’s geometry and resonanc
 
 [Project Link](https://drive.google.com/drive/folders/16uOcr8zH6xvGFkNuyfOgYP5oi4vpMuZC?usp=drive_link)
 
-I designed and simulated a BFP420 BJT frequency doubler in Keysight ADS using harmonic-balance analysis. The design produced a 5 GHz output of −7 dBm from a 2.5 GHz input while suppressing undesired harmonics to −59 dBm.
+I designed and simulated a BFP420 BJT frequency doubler in Keysight ADS using harmonic-balance analysis and Method of Moments to characterize the resonator. The design produced a 5 GHz output of −7 dBm from a 2.5 GHz input while suppressing undesired harmonics to −59 dBm.
+
+![schematic](/assets/freq_dub_schematic.png)
+![MoM](/assets/freq_dub_MoM_resonator.png)
+![HB_output](/assets/freq_dub_HB_output.png)
 
 After simulation, I fabricated an FR-4 prototype using copper-tape RF traces and characterized its frequency response with a spectrum analyzer and vector network analyzer.
+![pcb](/assets/freq_dub_pcb.jpg)
 
 ## 9 GHz Power Amplifier
 
 [Project Link](https://drive.google.com/drive/folders/144v_WeVsoRgzEKuDb7DXbJwozMXUPGyg?usp=drive_link)
 
 For this project, I designed and simulated matching networks for a single-stage power amplifier using an S-parameter file of an NE67383 MESFET in Keysight ADS. The amplifier achieved 12 dB of gain over a 10% bandwidth centered around 9 GHz. This project was one of my first real design projects in Keysight ADS, giving me hands-on experience with high-frequency matching and RF circuit simulation without having to worry about DC-biasing the transistor, but still helping me explore different tools in ADS such as the optimization feature.
+
+![schematic](/assets/9ghz_schematic.png)
+![figure-of-merit_delta_stab](/assets/figure-of-merit_delta_stab.png)
+![optimized_s_params](/assets/9ghz_optimizedSparam.png)
 
 ## Communications Block Error Rate Simulation
 
